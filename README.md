@@ -38,3 +38,10 @@ Run the program without auto reload:
 ```
 ng serve --no-live-reload
 ```
+**Functionalities**
+<hr>
+
+- Admin can view, create, edit, delete any news.
+- Author can create news and edit/delete them. So to create and manage news register as author.
+- User can view content only, however only unread news will be visible to the user. The news will be no longer available after the user finished reading.
+

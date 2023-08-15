@@ -1,0 +1,94 @@
+.blog-entry {
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  overflow: hidden;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .blog-entry {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .blog-entry {
+    margin-bottom: 30px;
+  }
+}
+
+.blog-entry .text {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .blog-entry .text {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -40px;
+    background: #fff;
+  }
+}
+
+.blog-entry .text .heading {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.blog-entry .text .heading a {
+  color: #000;
+}
+
+.blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
+  color: #f86f2d;
+}
+
+.blog-entry .text .time-loc {
+  font-size: 14px;
+}
+
+.blog-entry .text .time-loc span {
+  color: #96a1af;
+}
+
+.blog-entry .text .time-loc span i {
+  color: #f86f2d;
+}
+
+.blog-entry .meta > div {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.blog-entry .meta > div a {
+  color: gray;
+  font-size: 15px;
+}
+
+.blog-entry .meta > div a:hover {
+  color: #666666;
+}
+
+.align-self-stretch {
+  -ms-flex-item-align: stretch !important;
+  align-self: stretch !important;
+}
+
+.modal-content {
+  min-width: 700px !important;
+}
+
+.event_image{
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+}
